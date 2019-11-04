@@ -1,0 +1,74 @@
+.contactForm {
+    background-color: black;
+    color: #e2f10c;
+    text-align: center;
+    transform: translateY(50%);
+}
+
+::placeholder {
+    color: #e2f10c;
+}
+
+select {
+    background-color:black;
+    color: #e2f10c;
+    border-bottom: 2px solid #e2f10c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea {
+    background-color:black;
+    color: #e2f10c;
+    border-bottom: 2px solid #e2f10c;
+    border-top: 2px solid #e2f10c;
+    border-left: 2px solid #e2f10c;
+    border-right: 2px solid #e2f10c;
+}
+
+.contactName input {
+    background-color:black;
+    color: #e2f10c;
+    border-bottom: 2px solid #e2f10c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contactEmail input {
+    background-color:black;
+    color: #e2f10c;
+    border-bottom: 2px solid #e2f10c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contactSubmit input {
+    background-color:black;
+    color: #e2f10c;
+    border-bottom: 2px solid #e2f10c;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+label i {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+select {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+input:focus{
+    outline: transparent;
+}
+
+textarea:focus{
+    outline: transparent;
+}
