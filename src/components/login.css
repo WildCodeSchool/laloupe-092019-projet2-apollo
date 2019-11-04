@@ -70,8 +70,8 @@ body{
     height: 300px;
 }
 .front, .back{
-    width: 20%;
-    height: 30%;
+    width: 19rem;
+    height: 19rem;
     border-radius: 50%;
     overflow: hidden;
     backface-visibility: hidden;
@@ -197,36 +197,42 @@ body{
    align-items: center;
    background-color: transparent;
 }
-.img2{
+
+.img2 {
    border-radius: 50%;
    max-height: 6em;
    cursor: pointer;
 }
-.haut {
+.img2:hover{
+   border-radius: 50%;
+   max-height: 8em;
+   cursor: pointer;
+}
+.haut  {
    align-items: flex-end;
    height: 8em;
 }
-.imgTop {
+.imgTop  {
    align-self: start;
 }
-.gauche {
+.gauche  {
    align-items: flex-end;
    width: 8em;
 }
-.imgLeft {
+.imgLeft  {
    align-self: start;
 }
-.droite {
+.droite  {
    align-items: flex-start;
    width: 8em;
 }
-.imgRight {
+.imgRight  {
    align-self: flex-end;
 }
 .bas {
    align-items: flex-start;
    height: 8em;
 }
-.imgDown {
+.imgDown  {
    align-self: flex-end;
 }
