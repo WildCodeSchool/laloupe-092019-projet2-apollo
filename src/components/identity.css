@@ -177,18 +177,10 @@ h3 {
     font-size: 1.7em;
     text-decoration: underline;  
 }
-.sign {     
+.sign, .planet2, .stone2, .element2 {     
     box-shadow: 5px 5px 5px 5px rgb(253, 253, 253);
 }
-.planet2 {     
-    box-shadow: 5px 5px 5px 5px rgb(253, 253, 253);
-}   
-.stone2 {     
-    box-shadow: 5px 5px 5px 5px rgb(253, 253, 253);
-}
-.element2 {     
-    box-shadow: 5px 5px 5px 5px rgb(253, 253, 253);
-}
+
 p {
     display: flex;
     justify-content: center;
