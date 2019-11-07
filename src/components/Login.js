@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './login.css';
 
 class Login extends React.Component {
@@ -7,21 +8,21 @@ class Login extends React.Component {
     }
     render() {
         return (
-            <div className= "container dsk-12">
-                <div className="ligne1 dsk-12">
-                    <div className="haut row dsk-12">
-                        <a className="img2 dsk-1" href=""><img className="img2" src="goldarmor/poisson.jpg" title="Pisces" alt="" /></a>
-                        <a className="img2 imgTop dsk-1" href=""><img className="img2 imgTop" src="goldarmor/bélier.jpg" title="Aries" alt="" /></a>
-                        <a className="img2 dsk-1" href=""><img className="img2" src="goldarmor/taureau.jpg" title="Taurus" alt="" /></a>
+            <div className= "container">
+                <div className="ligne1">
+                    <div className="haut row">
+                        <Link className="img2" href=""><img className="img2" src="goldarmor/poisson.jpg" title="Pisces" alt="" /></Link>
+                        <Link to="/belier" className="img2 imgTop"><img className="img2 imgTop" src="goldarmor/bélier.jpg" title="Aries" alt="" /></Link>
+                        <Link className="img2" href=""><img className="img2" src="goldarmor/taureau.jpg" title="Taurus" alt="" /></Link>
                     </div>
                 </div>
-                <div className="ligne2 row dsk-12">
+                <div className="ligne2 row">
                     <div className="gauche column1">
-                        <a className="img2 " href=""><img className="img2" src="goldarmor/verseau.jpg" title="Aquarius" alt="" /></a>
-                        <a className="img2 imgLeft " href=""><img className="img2 imgLeft" src="goldarmor/capricorne.jpg" title="Capricorn" alt="" /></a>
-                        <a className="img2 " href=""><img className="img2" src="goldarmor/sagittaire.jpg" title="Sagittarius" alt="" /></a>
+                        <Link className="img2 " href=""><img className="img2" src="goldarmor/verseau.jpg" title="Aquarius" alt="" /></Link>
+                        <Link className="img2 imgLeft " href=""><img className="img2 imgLeft" src="goldarmor/capricorne.jpg" title="Capricorn" alt="" /></Link>
+                        <Link className="img2 " href=""><img className="img2" src="goldarmor/sagittaire.jpg" title="Sagittarius" alt="" /></Link>
                     </div>
-                    <div className="card middle dsk-6">
+                    <div className="card middle">
                         <div className="front">
                             <img className="img" src="athena.jpg" alt="" />
                         </div>
@@ -44,17 +45,17 @@ class Login extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="droite column2 dsk-12">
-                        <a className="img2" href=""><img className="img2" src="goldarmor/gémeau.jpg" title="Gemini" alt="" /></a>
-                        <a className="img2 imgRight" href=""><img className="img2 imgRight" src="goldarmor/cancer.jpg" title="Cancer" alt="" /></a>
-                        <a className="img2" href=""><img className="img2" src="goldarmor/lion.jpg" title="Lion" alt="" /></a>
+                    <div className="droite column2">
+                        <Link className="img2" href=""><img className="img2" src="goldarmor/gémeau.jpg" title="Gemini" alt="" /></Link>
+                        <Link className="img2 imgRight" href=""><img className="img2 imgRight" src="goldarmor/cancer.jpg" title="Cancer" alt="" /></Link>
+                        <Link className="img2" href=""><img className="img2" src="goldarmor/lion.jpg" title="Lion" alt="" /></Link>
                     </div>
                 </div>
                 <div className="ligne3">
-                    <div className="bas row dsk-12">
-                        <a className="img2 dsk-1" href=""><img className="img2" src="goldarmor/scorpion.jpg" title="Scorpio" alt="" /></a>
-                        <a className="img2 dsk-1 imgDown" href=""><img className="img2 imgDown" src="goldarmor/balance.jpg" title="Libra" alt="" /></a>
-                        <a className="img2 dsk-1" href=""><img className="img2" src="goldarmor/vierge.jpg" title="Virgo" alt="" /></a>
+                    <div className="bas row">
+                        <Link className="img2" href=""><img className="img2" src="goldarmor/scorpion.jpg" title="Scorpio" alt="" /></Link>
+                        <Link className="img2 imgDown" href=""><img className="img2 imgDown" src="goldarmor/balance.jpg" title="Libra" alt="" /></Link>
+                        <Link className="img2" href=""><img className="img2" src="goldarmor/vierge.jpg" title="Virgo" alt="" /></Link>
                     </div>
                 </div>
             </div>
