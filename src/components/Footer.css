@@ -1,0 +1,43 @@
+.Footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    color: #dfffb9;
+    height: 2rem;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 7rem;
+    background-color:transparent;
+}
+.Footer_p {
+    align-items: center;
+    box-shadow : none;
+
+}
+
+.SocialContainer {
+    display:flex;
+    flex-direction:row;
+    margin-left:1rem;
+    align-items: center;
+}
+.SocialButton{
+    display:flex;
+    background-color: transparent;
+    border-style:none;
+    align-items: center;
+}
+
+.SocialNetwork{
+    height:2.5em;
+    align-items: center;
+}
+
+
+
+.Legals{
+    margin-right:1rem;
+}
+
