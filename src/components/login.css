@@ -72,6 +72,45 @@ table {
    .mob-offset-10{margin-left: 83.33%;}
    .mob-offset-11{margin-left: 91.66%;}
    .mob-offset-12{margin-left: 100%;}
+
+   .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   }
+   .container2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 1rem;
+   }
+
+   .colonne1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;      
+   }
+   .colonne2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+   }
+   .colonne3{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+   }
+   .colonne4{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+   }
+   .img2 {
+      border-radius: 50%;
+      max-height: 6em;
+      display: flex;
+      border: 1px solid black; 
+   }
 }
 
 /**
@@ -146,8 +185,8 @@ table {
    text-decoration: none;
    font-family: "montserrat";
 }
-body{
-    background: #333;
+.container{
+   margin-top: 4 rem;
 }
 .middle{
     display: flex;
@@ -156,7 +195,7 @@ body{
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .card{
     cursor: pointer;
@@ -212,7 +251,7 @@ body{
 .card:hover > .back{
     transform: perspective(600px) rotateY(0deg);
 }
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
 .login-box{
    background-color: black;
    width: 150px;

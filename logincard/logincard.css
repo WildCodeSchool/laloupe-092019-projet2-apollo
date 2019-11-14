@@ -69,7 +69,7 @@
  .card:hover > .back{
      transform: perspective(600px) rotateY(0deg);
  }
- @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+ 
 
 
 
